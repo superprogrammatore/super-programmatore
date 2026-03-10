@@ -41,7 +41,7 @@ const VideoSection = () => {
           <div className="absolute -inset-[1px] bg-gradient-to-b from-primary/30 via-primary/10 to-primary/30" />
 
           {/* Video container - 16:9 aspect ratio */}
-          <div className="relative bg-card aspect-video flex items-center justify-center overflow-hidden">
+          <div className="relative bg-card aspect-video flex flex-col items-center justify-end overflow-hidden">
             {/* Placeholder - will be replaced with video embed */}
             <img src={videoCover} alt="Super Programmatore" className="absolute inset-0 w-full h-full object-contain bg-black" />
 
