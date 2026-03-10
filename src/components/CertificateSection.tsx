@@ -17,10 +17,10 @@ const CertificateSection = () => {
           {/* Bottom gold bar */}
           <div className="absolute bottom-0 left-0 right-0 h-[2px] bg-primary" />
 
-          <div className="p-10 sm:p-16 flex flex-col md:flex-row items-center gap-10 md:gap-16">
+          <div className="p-8 sm:p-16 flex flex-col items-center md:flex-row md:items-center gap-8 md:gap-16">
             {/* Certificate visual */}
             <div className="flex-shrink-0">
-              <div className="relative w-[200px] h-[260px] border border-primary/40 bg-primary/[0.04] flex flex-col items-center justify-center">
+              <div className="relative w-[160px] h-[210px] sm:w-[200px] sm:h-[260px] border border-primary/40 bg-primary/[0.04] flex flex-col items-center justify-center">
                 {/* Corner accents */}
                 <div className="absolute -top-1 -left-1 w-5 h-5 border-t-2 border-l-2 border-primary" />
                 <div className="absolute -top-1 -right-1 w-5 h-5 border-t-2 border-r-2 border-primary" />

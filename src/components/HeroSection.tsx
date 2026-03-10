@@ -101,10 +101,10 @@ const HeroSection = () => {
             </span>
           </div>
 
-          <div className="mt-12 flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <div className="mt-8 sm:mt-12 flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center">
             <a
               href="#offerta"
-              className="group relative inline-flex items-center justify-center bg-primary text-primary-foreground font-body font-bold text-lg px-12 py-5 uppercase tracking-wider overflow-hidden transition-all hover:shadow-[0_0_40px_hsl(51_100%_50%/0.3)]"
+              className="group relative inline-flex items-center justify-center bg-primary text-primary-foreground font-body font-bold text-base sm:text-lg px-8 sm:px-12 py-4 sm:py-5 uppercase tracking-wider overflow-hidden transition-all hover:shadow-[0_0_40px_hsl(51_100%_50%/0.3)] w-full sm:w-auto"
             >
               <span className="relative z-10">Inizia ora — 97€</span>
               <div className="absolute inset-0 bg-foreground/10 translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-500" />
@@ -113,7 +113,7 @@ const HeroSection = () => {
               href="https://lezione.superprogrammatore.it/"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center border border-muted text-foreground font-body font-medium text-base px-8 py-5 hover:border-primary/30 hover:text-primary transition-all duration-300"
+              className="inline-flex items-center justify-center border border-muted text-foreground font-body font-medium text-sm sm:text-base px-6 sm:px-8 py-4 sm:py-5 hover:border-primary/30 hover:text-primary transition-all duration-300 w-full sm:w-auto"
             >
               Accedi alla lezione gratuita →
             </a>
