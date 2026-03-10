@@ -98,7 +98,7 @@ const CareerSection = () => {
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.3 }}
+            transition={{ duration: 0.5, delay: 0.1 }}
             className="border border-signal/30 bg-signal/[0.03] p-8 sm:p-10 relative overflow-hidden"
           >
             <div className="absolute top-0 left-0 right-0 h-[2px] bg-signal" />
