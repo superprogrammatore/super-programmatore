@@ -110,10 +110,12 @@ const HeroSection = () => {
               <div className="absolute inset-0 bg-foreground/10 translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-500" />
             </a>
             <a
-              href="#metodo"
+              href="https://lezione.superprogrammatore.it/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center border border-muted text-foreground font-body font-medium text-base px-8 py-5 hover:border-primary/30 hover:text-primary transition-all duration-300"
             >
-              Scopri il metodo ↓
+              Accedi alla lezione gratuita →
             </a>
           </div>
         </motion.div>
