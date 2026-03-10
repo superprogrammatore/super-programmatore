@@ -25,7 +25,7 @@ const Index = () => {
       <footer className="py-10 px-6 border-t border-border">
         <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
           <span className="font-body text-xs text-muted-foreground">
-            © 2025 Eugenio Fontana. Tutti i diritti riservati.
+            © 2026 Eugenio Fontana. Tutti i diritti riservati.
           </span>
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 bg-primary" />
