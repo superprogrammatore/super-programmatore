@@ -41,7 +41,7 @@ const VideoSection = () => {
           <div className="absolute -inset-[1px] bg-gradient-to-b from-primary/30 via-primary/10 to-primary/30" />
 
           {/* Video container - 16:9 aspect ratio */}
-          <div className="relative bg-card aspect-video flex items-center justify-center overflow-hidden">
+          <div className="relative bg-card aspect-video flex flex-col items-center justify-end overflow-hidden">
             {/* Placeholder - will be replaced with video embed */}
             <img src={videoCover} alt="Super Programmatore" className="absolute inset-0 w-full h-full object-contain bg-black" />
 
@@ -49,11 +49,11 @@ const VideoSection = () => {
             <div className="absolute inset-0 grid-overlay opacity-20" />
 
             {/* Play button */}
-            <div className="relative z-10 flex flex-col items-center gap-6">
-              <div className="w-20 h-20 sm:w-24 sm:h-24 border-2 border-primary bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors cursor-pointer group">
-                <Play className="w-8 h-8 sm:w-10 sm:h-10 text-primary group-hover:text-signal transition-colors ml-1" />
+            <div className="relative z-10 flex flex-col items-center gap-4 mt-auto mb-6">
+              <div className="w-16 h-16 sm:w-20 sm:h-20 border-2 border-primary bg-background/80 backdrop-blur-sm flex items-center justify-center hover:bg-primary/20 transition-colors cursor-pointer group">
+                <Play className="w-6 h-6 sm:w-8 sm:h-8 text-primary group-hover:text-signal transition-colors ml-1" />
               </div>
-              <span className="font-body text-xs uppercase tracking-[0.3em] text-muted-foreground">
+              <span className="font-body text-xs uppercase tracking-[0.3em] text-muted-foreground bg-background/70 backdrop-blur-sm px-3 py-1">
                 Video in arrivo
               </span>
             </div>
