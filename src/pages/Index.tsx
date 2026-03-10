@@ -19,6 +19,7 @@ const Index = () => {
       <MethodSection />
       <AppsGridSection />
       <InstructorSection />
+      <CertificateSection />
       <PricingSection />
       <FinalCTA />
 
