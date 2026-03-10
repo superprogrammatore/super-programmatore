@@ -20,6 +20,7 @@ const Index = () => {
       <StatsSection />
       <VideoSection />
       <ProblemSection />
+      <CareerSection />
       <MethodSection />
       <AppsGridSection />
       <InstructorSection />
