@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import logo from "@/assets/logo.png";
 
 const Navbar = () => {
   return (
@@ -6,14 +7,11 @@ const Navbar = () => {
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, delay: 3 }}
-      className="fixed top-0 left-0 right-0 z-50 px-6 py-5"
+      className="fixed top-0 left-0 right-0 z-50 px-6 py-3"
     >
       <div className="max-w-6xl mx-auto flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <div className="w-3 h-3 bg-primary" />
-          <span className="font-display text-sm uppercase tracking-[0.2em] text-foreground">
-            Super Programmatore
-          </span>
+          <img src={logo} alt="Super Programmatore" className="h-12 w-auto" />
         </div>
         <a
           href="#offerta"
