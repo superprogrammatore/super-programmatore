@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Play } from "lucide-react";
+import videoCover from "@/assets/video-cover.jpg";
 
 const VideoSection = () => {
   return (
