@@ -66,8 +66,9 @@ const InstructorSection = () => {
               
               <div className="space-y-4 font-body text-muted-foreground leading-relaxed">
                 <p>
-                  Formatore nel settore tecnologico con anni di esperienza nella formazione 
-                  su programmazione, cloud computing e cybersecurity.
+                  Uno dei formatori più conosciuti in Italia nel settore tecnologico, con{" "}
+                  <span className="text-foreground font-medium">oltre 100.000 studenti formati</span> in 
+                  programmazione, cloud computing e cybersecurity.
                 </p>
                 <p>
                   Questo progetto nasce dall'esperienza diretta nella formazione e dalla 
