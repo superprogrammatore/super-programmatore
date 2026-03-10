@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { ExternalLink } from "lucide-react";
 
 const InstructorSection = () => {
   return (
