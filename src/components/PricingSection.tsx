@@ -50,7 +50,7 @@ const PricingSection = () => {
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-50px" }}
-          transition={{ duration: 0.8, delay: 0.2 }}
+          transition={{ duration: 0.8 }}
           className="relative max-w-lg mx-auto"
         >
           {/* Outer glow frame */}
