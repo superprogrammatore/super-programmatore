@@ -68,7 +68,7 @@ const HeroSection = () => {
         >
           <span className="inline-flex items-center gap-2 border border-primary/20 text-primary font-body text-xs font-medium uppercase tracking-[0.25em] px-4 py-2">
             <span className="w-1.5 h-1.5 bg-primary rounded-full animate-pulse" />
-            Nuovo percorso formativo 2025
+            Nuovo percorso formativo 2026
           </span>
         </motion.div>
 
