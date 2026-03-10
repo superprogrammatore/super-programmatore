@@ -3,7 +3,7 @@ import heroBg from "@/assets/hero-bg.jpg";
 
 const FinalCTA = () => {
   return (
-    <section className="py-32 px-6 relative overflow-hidden">
+    <section className="py-20 sm:py-32 px-4 sm:px-6 relative overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0">
         <img src={heroBg} alt="" className="w-full h-full object-cover opacity-20 scale-x-[-1]" />
@@ -30,7 +30,7 @@ const FinalCTA = () => {
           </p>
           <a
             href="#offerta"
-            className="group relative inline-flex items-center justify-center bg-primary text-primary-foreground font-body font-bold text-lg px-14 py-5 uppercase tracking-wider overflow-hidden transition-all hover:shadow-[0_0_60px_hsl(51_100%_50%/0.3)]"
+            className="group relative inline-flex items-center justify-center bg-primary text-primary-foreground font-body font-bold text-base sm:text-lg px-8 sm:px-14 py-4 sm:py-5 uppercase tracking-wider overflow-hidden transition-all hover:shadow-[0_0_60px_hsl(51_100%_50%/0.3)] w-full sm:w-auto max-w-md"
           >
             <span className="relative z-10">Inizia il percorso — 97€</span>
             <div className="absolute inset-0 bg-foreground/10 translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-500" />

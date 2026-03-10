@@ -4,7 +4,7 @@ import Particles from "./Particles";
 
 const PricingSection = () => {
   return (
-    <section id="offerta" className="py-32 px-6 relative overflow-hidden">
+    <section id="offerta" className="py-20 sm:py-32 px-4 sm:px-6 relative overflow-hidden">
       <Particles count={15} />
 
       <div className="max-w-4xl mx-auto text-center relative z-10">
@@ -37,13 +37,13 @@ const PricingSection = () => {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.1 }}
-          className="inline-flex items-center gap-3 bg-signal/10 border border-signal/30 px-6 py-3 mb-16"
+          className="inline-flex items-center gap-2 sm:gap-3 bg-signal/10 border border-signal/30 px-4 sm:px-6 py-3 mb-16 text-center"
         >
-          <AlertTriangle className="w-4 h-4 text-signal flex-shrink-0" />
-          <span className="font-body text-sm text-signal font-semibold">
+          <AlertTriangle className="w-4 h-4 text-signal flex-shrink-0 hidden sm:block" />
+          <span className="font-body text-xs sm:text-sm text-signal font-semibold">
             Il prezzo tornerà a 997€ a brevissimo — questa offerta non durerà
           </span>
-          <AlertTriangle className="w-4 h-4 text-signal flex-shrink-0" />
+          <AlertTriangle className="w-4 h-4 text-signal flex-shrink-0 hidden sm:block" />
         </motion.div>
 
         <motion.div
@@ -103,7 +103,7 @@ const PricingSection = () => {
 
             <a
               href="#"
-              className="group relative inline-flex w-full items-center justify-center bg-primary text-primary-foreground font-body font-bold text-lg px-10 py-5 uppercase tracking-wider overflow-hidden transition-all hover:shadow-[0_0_60px_hsl(51_100%_50%/0.3)]"
+              className="group relative inline-flex w-full items-center justify-center bg-primary text-primary-foreground font-body font-bold text-base sm:text-lg px-6 sm:px-10 py-4 sm:py-5 uppercase tracking-wider overflow-hidden transition-all hover:shadow-[0_0_60px_hsl(51_100%_50%/0.3)]"
             >
               <span className="relative z-10">Accedi ora — 97€</span>
               <div className="absolute inset-0 bg-foreground/10 translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-500" />

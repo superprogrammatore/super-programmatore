@@ -91,7 +91,7 @@ const AppCard = ({ app, index }: { app: AppItem; index: number }) => (
 
 const AppsGridSection = () => {
   return (
-    <section className="py-32 px-6 overflow-hidden relative">
+    <section className="py-20 sm:py-32 px-4 sm:px-6 overflow-hidden relative">
       {/* Background */}
       <div className="absolute inset-0">
         <img src={gridPattern} alt="" className="w-full h-full object-cover opacity-10" />

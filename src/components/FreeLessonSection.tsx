@@ -3,7 +3,7 @@ import { Zap, ArrowRight } from "lucide-react";
 
 const FreeLessonSection = () => {
   return (
-    <section className="py-32 px-6 relative overflow-hidden">
+    <section className="py-20 sm:py-32 px-6 relative overflow-hidden">
       {/* Subtle glow behind */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[400px] bg-primary/[0.04] blur-[120px] rounded-full pointer-events-none" />
 
@@ -22,7 +22,7 @@ const FreeLessonSection = () => {
             </span>
           </div>
 
-          <h2 className="font-display text-3xl sm:text-4xl md:text-5xl uppercase tracking-tight leading-[1.1] mb-6">
+          <h2 className="font-display text-2xl sm:text-3xl md:text-4xl lg:text-5xl uppercase tracking-tight leading-[1.1] mb-6">
             <span className="text-signal">LA SFIDA:</span>
             <br />
             In meno di 10 minuti ti insegno a creare una{" "}
@@ -47,7 +47,7 @@ const FreeLessonSection = () => {
           {/* Outer glow */}
           <div className="absolute -inset-[1px] bg-gradient-to-b from-primary/30 via-primary/10 to-primary/30" />
 
-          <div className="relative bg-card p-10 sm:p-14 text-center">
+          <div className="relative bg-card p-8 sm:p-14 text-center">
             <div className="absolute top-0 left-0 right-0 h-[2px] bg-primary" />
 
             <div className="w-14 h-14 border border-primary/40 bg-primary/[0.08] flex items-center justify-center mx-auto mb-6">
@@ -66,7 +66,7 @@ const FreeLessonSection = () => {
               href="https://lezione.superprogrammatore.it/"
               target="_blank"
               rel="noopener noreferrer"
-              className="group relative inline-flex items-center justify-center bg-primary text-primary-foreground font-body font-bold text-lg px-10 py-5 uppercase tracking-wider overflow-hidden transition-all hover:shadow-[0_0_60px_hsl(51_100%_50%/0.3)]"
+              className="group relative inline-flex items-center justify-center bg-primary text-primary-foreground font-body font-bold text-base sm:text-lg px-8 sm:px-10 py-4 sm:py-5 uppercase tracking-wider overflow-hidden transition-all hover:shadow-[0_0_60px_hsl(51_100%_50%/0.3)] w-full sm:w-auto"
             >
               <span className="relative z-10 flex items-center gap-3">
                 Guarda la Lezione Gratuita

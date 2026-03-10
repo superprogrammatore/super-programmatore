@@ -9,7 +9,7 @@ const stats = [
 
 const CareerSection = () => {
   return (
-    <section className="py-32 px-6 relative overflow-hidden">
+    <section className="py-20 sm:py-32 px-4 sm:px-6 relative overflow-hidden">
       {/* Subtle background glow */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[600px] bg-signal/[0.03] blur-[150px] rounded-full pointer-events-none" />
 
