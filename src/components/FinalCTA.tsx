@@ -3,7 +3,7 @@ import heroBg from "@/assets/hero-bg.jpg";
 
 const FinalCTA = () => {
   return (
-    <section className="py-32 px-6 relative overflow-hidden">
+    <section className="py-20 sm:py-32 px-4 sm:px-6 relative overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0">
         <img src={heroBg} alt="" className="w-full h-full object-cover opacity-20 scale-x-[-1]" />

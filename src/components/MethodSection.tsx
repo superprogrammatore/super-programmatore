@@ -66,7 +66,7 @@ const modules = [
 
 const MethodSection = () => {
   return (
-    <section id="metodo" className="py-32 px-6 relative">
+    <section id="metodo" className="py-20 sm:py-32 px-4 sm:px-6 relative">
       <div className="max-w-5xl mx-auto">
         {/* Section label */}
         <motion.div

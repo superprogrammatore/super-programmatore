@@ -4,7 +4,7 @@ import Particles from "./Particles";
 
 const PricingSection = () => {
   return (
-    <section id="offerta" className="py-32 px-6 relative overflow-hidden">
+    <section id="offerta" className="py-20 sm:py-32 px-4 sm:px-6 relative overflow-hidden">
       <Particles count={15} />
 
       <div className="max-w-4xl mx-auto text-center relative z-10">

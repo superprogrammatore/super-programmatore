@@ -3,7 +3,7 @@ import { Play } from "lucide-react";
 
 const VideoSection = () => {
   return (
-    <section className="py-32 px-6 relative">
+    <section className="py-20 sm:py-32 px-4 sm:px-6 relative">
       <div className="max-w-4xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 40 }}

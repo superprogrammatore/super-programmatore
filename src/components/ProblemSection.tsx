@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const ProblemSection = () => {
   return (
-    <section className="py-32 px-6 relative">
+    <section className="py-20 sm:py-32 px-4 sm:px-6 relative">
       <div className="absolute inset-0 grid-overlay opacity-30" />
       
       <div className="max-w-3xl mx-auto relative z-10">
