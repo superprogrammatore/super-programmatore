@@ -79,7 +79,7 @@ const PricingSection = () => {
 
               {/* Price per day */}
               <p className="font-body text-muted-foreground text-xs mt-4">
-                Meno di <span className="text-foreground font-medium">0,27€ al giorno</span> per un anno di competenze
+                Meno di <span className="text-foreground font-medium">0,27€ al giorno</span> — accesso illimitato, per sempre
               </p>
             </div>
 
