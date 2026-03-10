@@ -65,7 +65,7 @@ const PricingSection = () => {
             <div className="space-y-4 text-left font-body text-sm text-muted-foreground mb-10 max-w-xs mx-auto">
               {[
                 "Ore di formazione video approfondita",
-                "30+ applicazioni educative interattive",
+                "32 applicazioni educative interattive",
                 "Progetti pratici nel mondo reale",
                 "Metodologie AI per lo sviluppo software",
                 "Analisi guidata di applicazioni reali",
