@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import heroBg from "@/assets/hero-bg.jpg";
 import Particles from "./Particles";
 
-const TITLE = "DIVENTA UN ARCHITETTO DI SISTEMI AI";
+const TITLE = "DIVENTA UN SUPER PROGRAMMATORE CON IL SUPER POTERE DELL'AI";
 
 const HeroSection = () => {
   const [displayedText, setDisplayedText] = useState("");
