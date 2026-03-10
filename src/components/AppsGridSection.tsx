@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import gridPattern from "@/assets/grid-pattern.jpg";
 
 const appLabels = [
   "HTTP Explorer", "DOM Visualizer", "State Machine", "API Tester",
@@ -11,29 +12,32 @@ const appLabels = [
   "Cookie Manager", "Storage API", "Perf Monitor", "A11y Checker",
 ];
 
-const sizes = [
-  "col-span-2 row-span-2",
-  "col-span-1 row-span-1",
-  "col-span-1 row-span-2",
-  "col-span-2 row-span-1",
-  "col-span-1 row-span-1",
-  "col-span-1 row-span-1",
-  "col-span-2 row-span-1",
-  "col-span-1 row-span-1",
-];
-
 const AppsGridSection = () => {
   return (
-    <section className="py-32 px-6 overflow-hidden">
-      <div className="max-w-5xl mx-auto">
+    <section className="py-32 px-6 overflow-hidden relative">
+      {/* Background image */}
+      <div className="absolute inset-0">
+        <img src={gridPattern} alt="" className="w-full h-full object-cover opacity-15" />
+        <div className="absolute inset-0 bg-gradient-to-b from-background via-transparent to-background" />
+      </div>
+
+      <div className="max-w-5xl mx-auto relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.8 }}
-          className="text-center mb-16"
+          className="text-center mb-20"
         >
-          <h2 className="font-display text-2xl sm:text-4xl md:text-5xl uppercase tracking-tight leading-[1.15] mb-6">
+          <div className="flex items-center justify-center gap-4 mb-10">
+            <div className="w-8 h-[1px] bg-primary" />
+            <span className="font-body text-xs uppercase tracking-[0.3em] text-primary font-medium">
+              Elemento distintivo
+            </span>
+            <div className="w-8 h-[1px] bg-primary" />
+          </div>
+
+          <h2 className="font-display text-3xl sm:text-4xl md:text-5xl uppercase tracking-tight leading-[1.1] mb-6">
             <span className="text-signal">30+</span> APPLICAZIONI
             <br />
             EDUCATIVE INTERATTIVE
@@ -49,26 +53,30 @@ const AppsGridSection = () => {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true, margin: "-50px" }}
           transition={{ duration: 1 }}
-          className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-2 sm:gap-3"
+          className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 gap-2"
         >
           {appLabels.map((label, i) => (
             <motion.div
               key={label}
-              className={`group relative bg-secondary border border-border p-3 sm:p-4 flex flex-col justify-end min-h-[80px] sm:min-h-[100px] hover:border-primary/40 transition-colors duration-300 ${
-                sizes[i % sizes.length]
-              }`}
-              whileHover={{ y: -2 }}
-              transition={{ duration: 0.2 }}
+              initial={{ opacity: 0, scale: 0.8 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.4, delay: i * 0.03 }}
+              className="group relative bg-card/80 backdrop-blur-sm border border-border p-3 aspect-square flex flex-col justify-between hover:border-primary/40 hover:bg-primary/[0.05] transition-all duration-300 cursor-default"
+              whileHover={{ y: -4, transition: { duration: 0.2 } }}
             >
-              {/* Simulated UI lines */}
-              <div className="absolute top-3 left-3 right-3 space-y-1.5 opacity-20 group-hover:opacity-40 transition-opacity">
-                <div className="h-[2px] bg-foreground w-3/4" />
-                <div className="h-[2px] bg-foreground w-1/2" />
-                <div className="h-[2px] bg-primary w-1/3" />
+              {/* Simulated mini UI */}
+              <div className="space-y-1">
+                <div className="h-[2px] bg-foreground/10 w-3/4 group-hover:bg-primary/30 transition-colors" />
+                <div className="h-[2px] bg-foreground/10 w-1/2 group-hover:bg-primary/20 transition-colors" />
+                <div className="h-[2px] bg-foreground/5 w-2/3" />
               </div>
-              <span className="font-body text-xs sm:text-sm text-muted-foreground group-hover:text-foreground transition-colors leading-tight">
-                {label}
-              </span>
+              <div className="flex items-center gap-1">
+                <div className="w-1 h-1 rounded-full bg-primary/40 group-hover:bg-primary transition-colors" />
+                <span className="font-body text-[9px] sm:text-[10px] text-muted-foreground group-hover:text-foreground transition-colors leading-tight truncate">
+                  {label}
+                </span>
+              </div>
             </motion.div>
           ))}
         </motion.div>
