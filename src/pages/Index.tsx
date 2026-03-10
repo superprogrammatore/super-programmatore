@@ -6,6 +6,7 @@ import MethodSection from "@/components/MethodSection";
 import AppsGridSection from "@/components/AppsGridSection";
 import InstructorSection from "@/components/InstructorSection";
 import PricingSection from "@/components/PricingSection";
+import CertificateSection from "@/components/CertificateSection";
 import FinalCTA from "@/components/FinalCTA";
 
 const Index = () => {
