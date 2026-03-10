@@ -84,6 +84,16 @@ const InstructorSection = () => {
                   <span className="text-signal not-italic font-semibold">non troverai in nessun altro corso online</span>."
                 </p>
               </div>
+
+              <a
+                href="https://eugeniofontana.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 font-body text-sm text-primary hover:text-signal transition-colors group mt-2"
+              >
+                <ExternalLink className="w-4 h-4" />
+                <span className="border-b border-primary/30 group-hover:border-signal/50 transition-colors">eugeniofontana.com</span>
+              </a>
             </div>
           </div>
         </motion.div>
