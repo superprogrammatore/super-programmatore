@@ -1,4 +1,6 @@
+import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
+import StatsSection from "@/components/StatsSection";
 import ProblemSection from "@/components/ProblemSection";
 import MethodSection from "@/components/MethodSection";
 import AppsGridSection from "@/components/AppsGridSection";
@@ -8,8 +10,10 @@ import FinalCTA from "@/components/FinalCTA";
 
 const Index = () => {
   return (
-    <div className="bg-background text-foreground min-h-screen">
+    <div className="bg-background text-foreground min-h-screen overflow-x-hidden">
+      <Navbar />
       <HeroSection />
+      <StatsSection />
       <ProblemSection />
       <MethodSection />
       <AppsGridSection />
@@ -19,11 +23,16 @@ const Index = () => {
 
       {/* Footer */}
       <footer className="py-10 px-6 border-t border-border">
-        <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 font-body text-sm text-muted-foreground">
-          <span>© 2025 Eugenio Fontana. Tutti i diritti riservati.</span>
-          <span className="text-signal font-display text-xs tracking-widest uppercase">
-            Super Programmatore
+        <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+          <span className="font-body text-xs text-muted-foreground">
+            © 2025 Eugenio Fontana. Tutti i diritti riservati.
           </span>
+          <div className="flex items-center gap-2">
+            <div className="w-2 h-2 bg-primary" />
+            <span className="font-display text-xs tracking-[0.2em] uppercase text-signal">
+              Super Programmatore
+            </span>
+          </div>
         </div>
       </footer>
     </div>
