@@ -32,14 +32,29 @@ const Index = () => {
 
       {/* Footer */}
       <footer className="py-10 px-6 border-t border-border">
-        <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
-          <span className="font-body text-xs text-muted-foreground">
-            © 2026 Eugenio Fontana. Tutti i diritti riservati.
-          </span>
-          <div className="flex items-center gap-2">
-            <div className="w-2 h-2 bg-primary" />
-            <span className="font-display text-xs tracking-[0.2em] uppercase text-signal">
-              Super Programmatore
+        <div className="max-w-5xl mx-auto flex flex-col gap-6">
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+            <span className="font-body text-xs text-muted-foreground">
+              © 2026 Eugenio Fontana. Tutti i diritti riservati.
+            </span>
+            <div className="flex items-center gap-2">
+              <div className="w-2 h-2 bg-primary" />
+              <span className="font-display text-xs tracking-[0.2em] uppercase text-signal">
+                Super Programmatore
+              </span>
+            </div>
+          </div>
+          <div className="flex items-center justify-center gap-6">
+            <Link to="/privacy-policy" className="font-body text-xs text-muted-foreground hover:text-primary transition-colors">
+              Privacy Policy
+            </Link>
+            <span className="text-border">|</span>
+            <Link to="/cookie-policy" className="font-body text-xs text-muted-foreground hover:text-primary transition-colors">
+              Cookie Policy
+            </Link>
+            <span className="text-border">|</span>
+            <span className="font-body text-xs text-muted-foreground">
+              P.IVA 07097370485
             </span>
           </div>
         </div>
