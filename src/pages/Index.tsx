@@ -8,6 +8,7 @@ import AppsGridSection from "@/components/AppsGridSection";
 import InstructorSection from "@/components/InstructorSection";
 import PricingSection from "@/components/PricingSection";
 import CertificateSection from "@/components/CertificateSection";
+import FreeLessonSection from "@/components/FreeLessonSection";
 import FinalCTA from "@/components/FinalCTA";
 
 const Index = () => {
@@ -23,6 +24,7 @@ const Index = () => {
       <InstructorSection />
       <CertificateSection />
       <PricingSection />
+      <FreeLessonSection />
       <FinalCTA />
 
       {/* Footer */}
