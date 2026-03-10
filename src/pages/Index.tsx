@@ -22,9 +22,9 @@ const Index = () => {
       <MethodSection />
       <AppsGridSection />
       <InstructorSection />
+      <FreeLessonSection />
       <CertificateSection />
       <PricingSection />
-      <FreeLessonSection />
       <FinalCTA />
 
       {/* Footer */}
