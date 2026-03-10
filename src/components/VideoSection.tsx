@@ -49,7 +49,7 @@ const VideoSection = () => {
             <div className="absolute inset-0 grid-overlay opacity-20" />
 
             {/* Play button */}
-            <div className="relative z-10 flex flex-col items-center gap-4 mt-auto mb-6">
+            <div className="relative z-10 flex flex-col items-center gap-4 mt-auto mb-2">
               <div className="w-16 h-16 sm:w-20 sm:h-20 border-2 border-primary bg-background/80 backdrop-blur-sm flex items-center justify-center hover:bg-primary/20 transition-colors cursor-pointer group">
                 <Play className="w-6 h-6 sm:w-8 sm:h-8 text-primary group-hover:text-signal transition-colors ml-1" />
               </div>
