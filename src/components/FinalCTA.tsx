@@ -16,7 +16,7 @@ const FinalCTA = () => {
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
+          viewport={{ once: true, margin: "-50px" }}
           transition={{ duration: 0.8 }}
         >
           <h2 className="font-display text-3xl sm:text-4xl md:text-6xl uppercase tracking-tight leading-[1.1] mb-8">

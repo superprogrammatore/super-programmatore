@@ -155,7 +155,7 @@ const MethodSection = () => {
               key={mod.number}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-50px" }}
+              viewport={{ once: true }}
               transition={{ duration: 0.6, delay: i * 0.1 }}
               className="group relative border border-border bg-card p-8 sm:p-10 hover:border-primary/30 transition-all duration-500"
             >
