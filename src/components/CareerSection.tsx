@@ -71,7 +71,7 @@ const CareerSection = () => {
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.2 }}
+            transition={{ duration: 0.5 }}
             className="border border-border bg-card p-8 sm:p-10 relative overflow-hidden"
           >
             <div className="absolute top-0 left-0 right-0 h-[2px] bg-muted-foreground/30" />
