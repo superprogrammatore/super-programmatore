@@ -104,6 +104,8 @@ const HeroSection = () => {
           <div className="mt-8 sm:mt-12 flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center">
             <a
               href="https://studenti.accademiadelcloud.it/p/diventa-un-super-programmatore"
+              target="_blank"
+              rel="noopener noreferrer"
               className="group relative inline-flex items-center justify-center bg-primary text-primary-foreground font-body font-bold text-base sm:text-lg px-8 sm:px-12 py-4 sm:py-5 uppercase tracking-wider overflow-hidden transition-all hover:shadow-[0_0_40px_hsl(51_100%_50%/0.3)] w-full sm:w-auto"
             >
               <span className="relative z-10">Inizia ora — 97€</span>
