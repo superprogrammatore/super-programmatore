@@ -22,6 +22,8 @@ const FinalCTA = () => {
         </p>
         <a
           href="https://studenti.accademiadelcloud.it/p/diventa-un-super-programmatore"
+          target="_blank"
+          rel="noopener noreferrer"
           className="group relative inline-flex items-center justify-center bg-primary text-primary-foreground font-body font-bold text-base sm:text-lg px-8 sm:px-14 py-4 sm:py-5 uppercase tracking-wider overflow-hidden transition-all hover:shadow-[0_0_60px_hsl(51_100%_50%/0.3)] w-full sm:w-auto max-w-md"
         >
           <span className="relative z-10">Inizia il percorso — 97€</span>
