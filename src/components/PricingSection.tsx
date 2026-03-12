@@ -63,6 +63,7 @@ const PricingSection = () => {
 
             <div className="space-y-4 text-left font-body text-sm text-muted-foreground mb-10 max-w-xs mx-auto">
               {[
+                "Oltre 200 video lezioni",
                 "20 ore di formazione video approfondita",
                 "32 applicazioni educative interattive",
                 "20 infografiche ad alta qualità",
