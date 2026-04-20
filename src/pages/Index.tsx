@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
+import UrgencyBanner from "@/components/UrgencyBanner";
 import StatsSection from "@/components/StatsSection";
 import VideoSection from "@/components/VideoSection";
 import ProblemSection from "@/components/ProblemSection";
@@ -18,6 +19,7 @@ const Index = () => {
     <div className="bg-background text-foreground min-h-screen overflow-x-hidden">
       <Navbar />
       <HeroSection />
+      <UrgencyBanner />
       <StatsSection />
       <VideoSection />
       <ProblemSection />
