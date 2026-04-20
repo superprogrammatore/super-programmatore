@@ -6,7 +6,7 @@ const UrgencyBanner = () => {
   };
 
   return (
-    <section className="relative px-4 sm:px-6 py-8 sm:py-10 overflow-hidden">
+    <section className="relative px-4 sm:px-6 py-12 sm:py-16 mt-12 sm:mt-20 overflow-hidden">
       {/* Animated red glow background */}
       <div className="absolute inset-0 bg-gradient-to-r from-signal/20 via-signal/30 to-signal/20" />
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,hsl(var(--signal)/0.25),transparent_70%)]" />
